@@ -1,0 +1,243 @@
+[
+    {
+      "name": "Vegan Chocolate Cake",
+      "weight": "500 grams",
+      "servings": 8,
+      "cooking_instructions": "1. Preheat oven to 350°F. 2. Mix dry ingredients. 3. Mix wet ingredients. 4. Combine wet and dry ingredients. 5. Pour into cake pan. 6. Bake for 30-35 minutes. 7. Let cool before serving.",
+      "prep_time": "15 minutes",
+      "isVegan": true,
+      "isGlutenFree": false,
+      "isNutFree": true,
+      "ingredients": [
+        {"name": "Flour", "weight": "200 grams"},
+        {"name": "Sugar", "weight": "250 grams"},
+        {"name": "Cocoa powder", "weight": "50 grams"},
+        {"name": "Baking soda", "weight": "5 grams"},
+        {"name": "Salt", "weight": "3 grams"},
+        {"name": "Water", "weight": "250 ml"},
+        {"name": "Vegetable oil", "weight": "100 ml"},
+        {"name": "Vanilla extract", "weight": "10 ml"},
+        {"name": "Vinegar", "weight": "15 ml"}
+      ]
+    },
+    {
+      "name": "Gluten-Free Banana Bread",
+      "weight": "600 grams",
+      "servings": 10,
+      "cooking_instructions": "1. Preheat oven to 350°F. 2. Mash bananas. 3. Mix dry ingredients. 4. Mix wet ingredients. 5. Combine wet and dry ingredients. 6. Pour into loaf pan. 7. Bake for 50-60 minutes. 8. Let cool before slicing.",
+      "prep_time": "20 minutes",
+      "isVegan": true,
+      "isGlutenFree": true,
+      "isNutFree": true,
+      "ingredients": [
+        {"name": "Bananas", "weight": "300 grams"},
+        {"name": "Gluten-free flour", "weight": "250 grams"},
+        {"name": "Sugar", "weight": "150 grams"},
+        {"name": "Baking powder", "weight": "8 grams"},
+        {"name": "Cinnamon", "weight": "5 grams"},
+        {"name": "Salt", "weight": "3 grams"},
+        {"name": "Coconut oil", "weight": "100 grams"},
+        {"name": "Vanilla extract", "weight": "10 ml"}
+      ]
+    },
+    {
+      "name": "Classic Chocolate Chip Cookies",
+      "weight": "400 grams",
+      "servings": 12,
+      "cooking_instructions": "1. Preheat oven to 375°F. 2. Cream butter and sugars. 3. Add eggs and vanilla. 4. Mix dry ingredients. 5. Combine wet and dry ingredients. 6. Fold in chocolate chips. 7. Drop spoonfuls onto baking sheet. 8. Bake for 10-12 minutes. 9. Let cool before serving.",
+      "prep_time": "25 minutes",
+      "isVegan": false,
+      "isGlutenFree": false,
+      "isNutFree": true,
+      "ingredients": [
+        {"name": "Butter", "weight": "200 grams"},
+        {"name": "Brown sugar", "weight": "150 grams"},
+        {"name": "White sugar", "weight": "150 grams"},
+        {"name": "Eggs", "weight": "2"},
+        {"name": "Vanilla extract", "weight": "10 ml"},
+        {"name": "Flour", "weight": "250 grams"},
+        {"name": "Baking soda", "weight": "5 grams"},
+        {"name": "Salt", "weight": "3 grams"},
+        {"name": "Chocolate chips", "weight": "200 grams"}
+      ]
+    },
+    {
+      "name": "Blueberry Muffins",
+      "weight": "350 grams",
+      "servings": 10,
+      "cooking_instructions": "1. Preheat oven to 375°F. 2. Mix dry ingredients. 3. Mix wet ingredients. 4. Combine wet and dry ingredients. 5. Fold in blueberries. 6. Fill muffin cups. 7. Bake for 20-25 minutes. 8. Let cool before serving.",
+      "prep_time": "15 minutes",
+      "isVegan": false,
+      "isGlutenFree": false,
+      "isNutFree": true,
+      "ingredients": [
+        {"name": "Flour", "weight": "200 grams"},
+        {"name": "Sugar", "weight": "150 grams"},
+        {"name": "Baking powder", "weight": "8 grams"},
+        {"name": "Salt", "weight": "3 grams"},
+        {"name": "Milk", "weight": "150 ml"},
+        {"name": "Vegetable oil", "weight": "100 ml"},
+        {"name": "Egg", "weight": "1"},
+        {"name": "Vanilla extract", "weight": "10 ml"},
+        {"name": "Blueberries", "weight": "150 grams"}
+      ]
+    },
+    {
+      "name": "Apple Crisp",
+      "weight": "700 grams",
+      "servings": 8,
+      "cooking_instructions": "1. Preheat oven to 375°F. 2. Mix sliced apples with sugar and cinnamon. 3. Spread apple mixture in baking dish. 4. Mix oats, flour, sugar, and butter until crumbly. 5. Sprinkle crumble over apples. 6. Bake for 40-45 minutes. 7. Let cool slightly before serving.",
+      "prep_time": "20 minutes",
+      "isVegan": true,
+      "isGlutenFree": false,
+      "isNutFree": true,
+      "ingredients": [
+        {"name": "Apples", "weight": "500 grams"},
+        {"name": "Sugar", "weight": "100 grams"},
+        {"name": "Cinnamon", "weight": "5 grams"},
+        {"name": "Oats", "weight": "100 grams"},
+        {"name": "Flour", "weight": "100 grams"},
+        {"name": "Butter", "weight": "100 grams"}
+      ]
+    },
+    {
+      "name": "Chocolate Brownies",
+      "weight": "600 grams",
+      "servings": 9,
+      "cooking_instructions": "1. Preheat oven to 350°F. 2. Melt chocolate and butter. 3. Mix in sugar and vanilla. 4. Add eggs one at a time. 5. Mix in flour and salt. 6. Pour batter into greased pan. 7. Bake for 30-35 minutes. 8. Let cool before cutting.",
+      "prep_time": "15 minutes",
+      "isVegan": false,
+      "isGlutenFree": false,
+      "isNutFree": true,
+      "ingredients": [
+        {"name": "Chocolate", "weight": "200 grams"},
+        {"name": "Butter", "weight": "150 grams"},
+        {"name": "Sugar", "weight": "250 grams"},
+        {"name": "Vanilla extract", "weight": "10 ml"},
+        {"name": "Eggs", "weight": "2"},
+        {"name": "Flour", "weight": "100 grams"},
+        {"name": "Salt", "weight": "3 grams"}
+      ]
+    },
+    {
+      "name": "Lemon Bars",
+      "weight": "600 grams",
+      "servings": 12,
+      "cooking_instructions": "1. Preheat oven to 350°F. 2. Mix crust ingredients. 3. Press crust into baking dish. 4. Bake crust for 15-20 minutes. 5. Mix filling ingredients. 6. Pour filling over baked crust. 7. Bake for 20-25 minutes. 8. Let cool before cutting.",
+      "prep_time": "20 minutes",
+      "isVegan": false,
+      "isGlutenFree": false,
+      "isNutFree": true,
+      "ingredients": [
+        {"name": "Flour", "weight": "200 grams"},
+        {"name": "Powdered sugar", "weight": "100 grams"},
+        {"name": "Butter", "weight": "150 grams"},
+        {"name": "Salt", "weight": "3 grams"},
+        {"name": "Eggs", "weight": "3"},
+        {"name": "Sugar", "weight": "300 grams"},
+        {"name": "Lemon juice", "weight": "120 ml"},
+        {"name": "Baking powder", "weight": "5 grams"},
+        {"name": "Flour", "weight": "50 grams"}
+      ]
+    },
+    {
+      "name": "Peanut Butter Cookies",
+      "weight": "400 grams",
+      "servings": 12,
+      "cooking_instructions": "1. Preheat oven to 350°F. 2. Cream peanut butter, butter, and sugars. 3. Add egg and vanilla. 4. Mix in flour, baking soda, and salt. 5. Roll dough into balls. 6. Flatten with fork. 7. Bake for 10-12 minutes. 8. Let cool before serving.",
+      "prep_time": "15 minutes",
+      "isVegan": false,
+      "isGlutenFree": false,
+      "isNutFree": false,
+      "ingredients": [
+        {"name": "Peanut butter", "weight": "200 grams"},
+        {"name": "Butter", "weight": "100 grams"},
+        {"name": "Sugar", "weight": "150 grams"},
+        {"name": "Brown sugar", "weight": "50 grams"},
+        {"name": "Egg", "weight": "1"},
+        {"name": "Vanilla extract", "weight": "10 ml"},
+        {"name": "Flour", "weight": "200 grams"},
+        {"name": "Baking soda", "weight": "5 grams"},
+        {"name": "Salt", "weight": "3 grams"}
+      ]
+    },
+    {
+      "name": "Carrot Cake",
+      "weight": "800 grams",
+      "servings": 10,
+      "cooking_instructions": "1. Preheat oven to 350°F. 2. Mix dry ingredients. 3. Mix wet ingredients. 4. Combine wet and dry ingredients. 5. Fold in grated carrots. 6. Pour into cake pan. 7. Bake for 40-45 minutes. 8. Let cool before frosting.",
+      "prep_time": "20 minutes",
+      "isVegan": false,
+      "isGlutenFree": false,
+      "isNutFree": true,
+      "ingredients": [
+        {"name": "Flour", "weight": "250 grams"},
+        {"name": "Sugar", "weight": "250 grams"},
+        {"name": "Baking powder", "weight": "8 grams"},
+        {"name": "Baking soda", "weight": "5 grams"},
+        {"name": "Cinnamon", "weight": "5 grams"},
+        {"name": "Salt", "weight": "3 grams"},
+        {"name": "Oil", "weight": "150 ml"},
+        {"name": "Eggs", "weight": "3"},
+        {"name": "Carrots", "weight": "300 grams"}
+      ]
+    },
+    {
+      "name": "Red Velvet Cupcakes",
+      "weight": "500 grams",
+      "servings": 12,
+      "cooking_instructions": "1. Preheat oven to 350°F. 2. Mix dry ingredients. 3. Mix wet ingredients. 4. Combine wet and dry ingredients. 5. Pour batter into cupcake liners. 6. Bake for 18-20 minutes. 7. Let cool before frosting.",
+      "prep_time": "20 minutes",
+      "isVegan": false,
+      "isGlutenFree": false,
+      "isNutFree": true,
+      "ingredients": [
+        {"name": "Flour", "weight": "200 grams"},
+        {"name": "Sugar", "weight": "250 grams"},
+        {"name": "Baking powder", "weight": "8 grams"},
+        {"name": "Cocoa powder", "weight": "20 grams"},
+        {"name": "Salt", "weight": "3 grams"},
+        {"name": "Oil", "weight": "150 ml"},
+        {"name": "Buttermilk", "weight": "200 ml"},
+        {"name": "Eggs", "weight": "2"},
+        {"name": "Red food coloring", "weight": "30 ml"},
+        {"name": "Vanilla extract", "weight": "10 ml"}
+      ]
+    },
+    {
+      "name": "Apple Pie",
+      "weight": "900 grams",
+      "servings": 8,
+      "cooking_instructions": "1. Preheat oven to 375°F. 2. Roll out pie crust. 3. Mix apples with sugar, cinnamon, and flour. 4. Pour apple mixture into pie crust. 5. Cover with second crust and cut slits. 6. Bake for 45-50 minutes. 7. Let cool before serving.",
+      "prep_time": "30 minutes",
+      "isVegan": true,
+      "isGlutenFree": false,
+      "isNutFree": true,
+      "ingredients": [
+        {"name": "Apples", "weight": "600 grams"},
+        {"name": "Sugar", "weight": "100 grams"},
+        {"name": "Cinnamon", "weight": "5 grams"},
+        {"name": "Flour", "weight": "50 grams"},
+        {"name": "Pie crust", "weight": "300 grams"}
+      ]
+    },
+    {
+      "name": "Coconut Macaroons",
+      "weight": "400 grams",
+      "servings": 12,
+      "cooking_instructions": "1. Preheat oven to 325°F. 2. Mix coconut, sugar, flour, and salt. 3. Add egg whites and vanilla. 4. Drop spoonfuls onto baking sheet. 5. Bake for 20-25 minutes. 6. Let cool before serving.",
+      "prep_time": "15 minutes",
+      "isVegan": true,
+      "isGlutenFree": true,
+      "isNutFree": false,
+      "ingredients": [
+        {"name": "Shredded coconut", "weight": "200 grams"},
+        {"name": "Sugar", "weight": "150 grams"},
+        {"name": "Flour", "weight": "50 grams"},
+        {"name": "Salt", "weight": "3 grams"},
+        {"name": "Egg whites", "weight": "3"},
+        {"name": "Vanilla extract", "weight": "10 ml"}
+      ]
+    }
+  ]
+  
