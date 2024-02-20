@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-App<api-assessment>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.cbfacademy.apiassessment.App",
+            "projectName": "api-assessment",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
