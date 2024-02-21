@@ -57,7 +57,7 @@ public class Ingredient {
     */
     public void setWeight(double weight) {
         if (weight < 0) {
-            throw new IllegalArgumentException("Weight cannot be a negative number");
+        throw new IllegalArgumentException("Weight cannot be a negative number");
         }
         this.weight = weight;
     }

@@ -1,8 +1,6 @@
-package com.cbfacademy.apiassessment.repositories;
+package com.cbfacademy.apiassessment;
 
 import org.springframework.stereotype.Repository;
-
-import com.cbfacademy.apiassessment.entities.Recipe;
 
 import java.util.Optional;
 import java.util.UUID;

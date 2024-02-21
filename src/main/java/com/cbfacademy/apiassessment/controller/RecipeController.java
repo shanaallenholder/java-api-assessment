@@ -17,6 +17,7 @@ import java.io.IOException;
 // Recipe Controller class to implement recipes API endpoints (CRUD/Http)
 @RestController
 @RequestMapping("/api/recipes")
+
 public class RecipeController {
 
     private final RecipeService recipeService;
@@ -25,7 +26,7 @@ public class RecipeController {
 
     }
 
-    @GetMapping("/api/recipes")
+    @GetMapping()
     public ResponseEntity<List<Recipe>> getAllRecipes() throws IOException {
         List<Recipe> recipes = recipeService.getAllRecipes();
        return new ResponseEntity<>(recipes, HttpStatus.OK);
@@ -33,7 +34,7 @@ public class RecipeController {
     }
 
     // Retrieve a specific recipe by ID
-    @GetMapping("/api/recipes/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Recipe> getRecipeById (@PathVariable UUID id) throws IOException {
         Recipe recipe = recipeService.getRecipeById(id);
         if (recipe != null) {
@@ -43,13 +44,13 @@ public class RecipeController {
         }
     }
 
-    @GetMapping("/api/recipes/searchRecipeByName")
+    @GetMapping("/{name}")
     public ResponseEntity<List<Recipe>> searchRecipeByName(@RequestParam String name) throws IOException {
         List<Recipe> recipes = recipeService.searchRecipeByName(name);
         return new ResponseEntity<>(recipes, HttpStatus.OK);
     }
 
-    @GetMapping("/api/recipes/searchByAllergen")
+    @GetMapping("/{allergen}")
     public ResponseEntity<List<Recipe>> searchRecipeByAllergen(
           @RequestParam(required = false) Boolean isGlutenFree,
           @RequestParam(required = false) Boolean isNutFree,
@@ -60,7 +61,7 @@ public class RecipeController {
           }
             
 
-    @PostMapping ("/api/recipes")
+    @PostMapping ()
     public ResponseEntity<Recipe> addRecipe(@RequestBody Recipe recipe) {
         try {
             Recipe newRecipe = recipeService.addRecipe(recipe);
@@ -71,7 +72,7 @@ public class RecipeController {
 
     }
 
-    @PutMapping("/api/recipes/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<Recipe> updateRecipe(@PathVariable UUID id, @RequestBody Recipe recipe) throws IOException {
             Recipe updateRecipe = recipeService.updateRecipe(id, recipe);
             return new ResponseEntity<>(updateRecipe, HttpStatus.OK);
@@ -79,7 +80,7 @@ public class RecipeController {
         }
 
 
-    @DeleteMapping("/api/recipes/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteRecipe(@PathVariable UUID id) throws IOException {
         recipeService.deleteRecipe(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);

@@ -1,9 +1,6 @@
 package com.cbfacademy.apiassessment;
 
 import org.springframework.stereotype.Service;
-
-import com.cbfacademy.apiassessment.entities.Recipe;
-import com.cbfacademy.apiassessment.repositories.RecipeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 
@@ -20,10 +17,9 @@ public class RecipeServiceImpl implements RecipeService {
     @Autowired
     private RecipeRepository recipeRepository;
 
-    
     @Override
     public List<Recipe> getAllRecipes() {
-        return allRecipes;
+        return recipeRepository.findAll().stream().collect(Collectors.toList());
     }
 
     @Override
